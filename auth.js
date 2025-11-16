@@ -5,7 +5,7 @@ function loadCodes() {
   try {
     return JSON.parse(fs.readFileSync('auth_codes.json', 'utf8'));
   } catch (error) {
-    return ["7826951128", "8928863349"];
+    return ["8928863349"];
   }
 }
 
